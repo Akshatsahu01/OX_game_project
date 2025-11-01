@@ -5,8 +5,10 @@ let newbtn=document.querySelector("#new-game")
 let msgcontainer =document.querySelector(".msg-container")
 let msg =document.querySelector("#message")
 
-const winnersound= new Audio("tunak-tunak-tun.mp3")
-const winnersound2= new Audio("modi-ji-wah.mp3")
+const audio1="https://www.myinstants.com/en/instant/modi-ji-wah-48264/?utm_source=copy&utm_medium=share"
+const audio2tunank="https://www.myinstants.com/en/instant/tunak-tunak-tun/?utm_source=copy&utm_medium=share"
+const winnersound= new Audio(audio2tunank)
+const winnersound2= new Audio(audio1)
 let winnerpatterns=[
     [0,1,2],
     [0,3,6],
